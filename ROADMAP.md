@@ -14,8 +14,10 @@ output before running it.
 
 - [x] **Day 1:** Call one public job-board API and print 10 engineering jobs.
   *HTTP request, JSON, variables.* → `week1/day1_fetch_jobs.py`
-- [ ] **Day 2:** Filter those jobs to US companies hiring remote or LATAM.
-  *Conditionals, loops, lists.*
+- [x] **Day 2:** Filter those jobs to US companies hiring remote or LATAM.
+  *Conditionals, loops, lists.* → `week1/day2_filter_jobs.py`
+  (Remotive has no company-country field, so this filters on "open to LATAM
+  candidates" only. The "US company" part needs enrichment later.)
 - [ ] **Day 3:** Save the results to a file, then load them back.
   *Files, data structures.*
 - [ ] **Day 4:** Break it on purpose (a wrong API key, a missing field) and read
