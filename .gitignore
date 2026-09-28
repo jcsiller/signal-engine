@@ -1,0 +1,14 @@
+# Secrets (API keys, passwords) - never upload these
+.env
+
+# Files Python creates automatically
+__pycache__/
+*.pyc
+
+# Isolated Python setups
+venv/
+.venv/
+
+# Junk files from Mac and Windows
+.DS_Store
+Thumbs.db
